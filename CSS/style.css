@@ -1,0 +1,6 @@
+shopping-list{
+    display:flexbox;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
