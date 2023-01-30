@@ -49,164 +49,192 @@ const employees = [
             City:'Bergen',
 
         },
-        job: {
-            Department: ['sale','shipping'],
-        }
+        Department: ['sale','shipping'],
 
-},
-{
-    person2: {
-        firstName:'Liam',
-        lastName:'Smith',
-        Age:'32',
-        Nationality:'Germany',
-        Dob:'1995-06-12',
+        email:'janne1234@gmail.com'
+
     },
-    address: {
-        Street: 'chrisdalsveien 8',
-        Zipcode:'0174',
-        City:'Oslo',
-    },
-    job: {
+    {
+        person: {
+            firstName:'Liam',
+            lastName:'Smith',
+            Age:'32',
+            Nationality:'Germany',
+            Dob:'1995-06-12',
+        },
+        address: {
+            Street: 'chrisdalsveien 8',
+            Zipcode:'0174',
+            City:'Oslo',
+        },
         Department: ['marketing','shipping'],
-    }
-},
-{
-    person3: {
-        firstName:'Emma',
-        lastName:'Johnson',
-        Age:'25',
-        Nationality:'Norway',
-        Dob:'1997-03-22',
+        email:'liam567@yahoo.com'
     },
-    address: {
-        Street: 'tordenskiolds gate 9',
-        Zipcode:'0252',
-        City:'Stockholm',
-    },
-    job: {
+    {
+        person: {
+            firstName:'Emma',
+            lastName:'Johnson',
+            Age:'25',
+            Nationality:'Norway',
+            Dob:'1997-03-22',
+        },
+        address: {
+            Street: 'tordenskiolds gate 9',
+            Zipcode:'0252',
+            City:'Stockholm',
+        },
         Department: ['finance','development'],
-    }
-},
-{
-    person4: {
-        firstName:'Noah',
-        lastName:'Williams',
-        Age:'29',
-        Nationality:'Sweden',
-        Dob:'1993-05-17',
+        email:'emma99@hotmail.com'
     },
-    address: {
-        Street: 'storgata 11',
-        Zipcode:'0255',
-        City:'Copenhagen',
-    },
-    job: {
+    {
+        person: {
+            firstName:'Noah',
+            lastName:'Williams',
+            Age:'29',
+            Nationality:'Sweden',
+            Dob:'1993-05-17',
+        },
+        address: {
+            Street: 'storgata 11',
+            Zipcode:'0255',
+            City:'Copenhagen',
+        },
         Department: ['design','support'],
-    }
-},
-{
-    person5: {
-        firstName:'Ava',
-        lastName:'Jones',
-        Age:'31',
-        Nationality:'Denmark',
-        Dob:'1992-07-14',
+        email:'noah4321@outlook.com'
     },
-    address: {
-        Street: 'bronseveien 15',
-        Zipcode:'0247',
-        City:'Berlin',
-    },
-    job: {
+    {
+        person: {
+            firstName:'Ava',
+            lastName:'Jones',
+            Age:'31',
+            Nationality:'Denmark',
+            Dob:'1992-07-14',
+        },
+        address: {
+            Street: 'bronseveien 15',
+            Zipcode:'0247',
+            City:'Berlin',
+        },
         Department: ['human resources','sales'],
-    }
-},
-{
-    person6: {
-        firstName:'Oliver',
-        lastName:'Brown',
-        Age:'26',
-        Nationality:'Finland',
-        Dob:'1996-09-18',
+        email:'ava7890@aol.com'
     },
-    address: {
-        Street: 'jernbaneveien 17',
-        Zipcode:'0241',
-        City:'Helsinki',
-    },
-    job: {
+    {
+        person: {
+            firstName:'Oliver',
+            lastName:'Brown',
+            Age:'26',
+            Nationality:'Finland',
+            Dob:'1996-09-18',
+        },
+        address: {
+            Street: 'jernbaneveien 17',
+            Zipcode:'0241',
+            City:'Helsinki',
+        },
         Department: ['operations','marketing'],
-    }
-},
-{
-    person7: {
-        firstName:'Isabella',
-        lastName:'Davis',
-        Age:'27',
-        Nationality:'Iceland',
-        Dob:'1994-11-15',
+        email:'oliver1111@gmail.com'
     },
-    address: {
-        Street: 'vegeneset 19',
-        Zipcode:'0243',
-        City:'Reykjavik',
-    },
-    job: {
+    {
+        person: {
+            firstName:'Isabella',
+            lastName:'Davis',
+            Age:'27',
+            Nationality:'Iceland',
+            Dob:'1994-11-15',
+        },
+        address: {
+            Street: 'vegeneset 19',
+            Zipcode:'0243',
+            City:'Reykjavik',
+        },
         Department: ['support','human resources'],
-    }
-},
-{
-    person8: {
-        firstName: 'Nina',
-        lastName: 'Martinez',
-        Age: '27',
-        Nationality: 'France',
-        Dob: '1996-12-07',
+        email:'isabella888@hotmail.com'
     },
-    address: {
-        Street: 'Happy Place 8',
-        Zipcode: '0413',
-        City: 'Paris',
-    },
-    job: {
+    {
+        person: {
+            firstName: 'Nina',
+            lastName: 'Martinez',
+            Age: '27',
+            Nationality: 'France',
+            Dob: '1996-12-07',
+        },
+        address: {
+            Street: 'Happy Place 8',
+            Zipcode: '0413',
+            City: 'Paris',
+        },
         Department: ['Development', 'Testing'],
-    }
-    
-},
-{
-    person9: {
-        firstName: 'Pepe',
-        lastName: 'Anderson',
-        Age: '30',
-        Nationality: 'United Kingdom',
-        Dob: '1993-07-15',
+        email:'nina2222@yahoo.com'
+        
     },
-    address: {
-        Street: 'Bright Avenue 7',
-        Zipcode: '0235',
-        City: 'Manchester',
-    },
-    job: {
+    {
+        person: {
+            firstName: 'Pepe',
+            lastName: 'Anderson',
+            Age: '30',
+            Nationality: 'United Kingdom',
+            Dob: '1993-07-15',
+        },
+        address: {
+            Street: 'Bright Avenue 7',
+            Zipcode: '0235',
+            City: 'Manchester',
+        },
         Department: ['HR', 'Administration'],
-    }
-},
-{
-    person10: {
-        firstName: 'Turid',
-        lastName: 'Smith',
-        Age: '32',
-        Nationality: 'Sweden',
-        Dob: '1987-07-17'
+        email:'pepe3456@outlook.com'
     },
-    address: {
-        Street: 'Victoria Ave',
-        Zipcode: '1115',
-        City: 'Oslo'
-    },
-    job: {
-        Department: ['marketing', 'administration']
+    {
+        person: {
+            firstName: 'Turid',
+            lastName: 'Smith',
+            Age: '32',
+            Nationality: 'Sweden',
+            Dob: '1987-07-17'
+        },
+        address: {
+            Street: 'Victoria Ave',
+            Zipcode: '1115',
+            City: 'Oslo'
+        },
+        Department: ['marketing', 'administration'],
+        email:'kimmy6789@aol.com'
     }
-}
 
-]
+    ]
+
+const bodyElement=document.querySelector('body');
+const ulElement=document.createElement('ul');
+
+    employees.forEach(employee => {
+        const liElement = document.createElement('li');
+        liElement.textContent=`
+        ${employee.person.firstName}
+        ${employee.person.lastName}
+        (${employee.Department[0]}) email: ${employee.email}
+        `;
+    
+    ulElement.appendChild(liElement);
+
+    });
+
+    bodyElement.appendChild(ulElement);
+
+
+   //-----------------------------------------------------------------------//
+//MAP
+const employeeEmails = employees.map(person =>{
+    return {
+        Email: person.email,
+        DOB: person.dob
+    }
+})
+
+console.log(employeeEmails);
+
+//filter
+
+const nationalityEmployees = employees.filter(employee =>{
+    return employee.person.Nationality === 'Norway';
+});
+
+console.log(nationalityEmployees)
