@@ -1,8 +1,8 @@
 let shoppingList = [];
 
-const list = document.getElementById("list");
-const itemInput = document.getElementById("item");
-const addBtn = document.getElementById("add-btn");
+const list = document.getElementById('list');
+const itemInput = document.getElementById('item');
+const addBtn = document.getElementById('add-btn');
 
 function addItem(e) {
   e.preventDefault();
@@ -23,8 +23,8 @@ function deleteItem(index) {
 function renderList() {
   list.innerHTML = "";
   shoppingList.forEach((item, index) => {
-    let li = document.createElement("li");
-    li.innerHTML = item + " <button onclick='deleteItem(" + index + ")'>Delete</button>";
+    let li = document.createElement('li');
+    li.innerHTML = item + " <button onclick='deleteItem(' + index + ')'>Delete</button>";
     list.appendChild(li);
   });
 }
