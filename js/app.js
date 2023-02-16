@@ -24,9 +24,10 @@ function renderList() {
   list.innerHTML = "";
   shoppingList.forEach((item, index) => {
     let li = document.createElement("li");
-    li.innerHTML = item + " <button onclick='deleteItem(" + index + ")'>Delete</button>";
+    li.innerHTML = item + " <button onclick='deleteItem(" + index + ")'>X</button>";
     list.appendChild(li);
   });
+  console.log(list)
 }
 
 addBtn.addEventListener("click", addItem);

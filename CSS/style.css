@@ -1,6 +1,50 @@
-shopping-list{
-    display:flexbox;
-    flex-direction: column;
-    align-items: flex-start;
-
+body{
+    display: flex;
 }
+h1{
+    text-align: center;
+}
+#shopping-list ul li{
+    list-style-type: none;
+}
+
+#flexbox {
+    margin:auto;
+    max-width: 400px;
+    border-radius: 1rem;
+    padding: 0px 50px 30px 50px;
+    background-color: rgb(108, 193, 199);
+}
+
+li > button{
+    background-color: darkred;
+    color: rgb(243, 243, 243);
+    border-radius: 0.5rem;
+    border-style: none;   
+    padding: 2px 6px 2px 6px;
+    font-size: 0.7rem;
+}
+
+#add-btn{
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border-style: none;
+    padding: 8px;   
+}
+input {
+    font-size: 1rem;
+    padding: 8px; 
+    border-style: none;
+    border-radius: 0.5rem;
+}
+
+/* Media Queries, Phone */
+
+@media (max-width: 450px) {
+    .flexbox {
+      flex: 100%;
+    }
+    body {
+        background-color: rgb(108, 193, 199);
+    }
+  }
