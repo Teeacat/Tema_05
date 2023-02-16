@@ -1,8 +1,8 @@
 let shoppingList = [];
 
-const list = document.getElementById("list");
-const itemInput = document.getElementById("item");
-const addBtn = document.getElementById("add-btn");
+const list = document.getElementById('list');
+const itemInput = document.getElementById('item');
+const addBtn = document.getElementById('add-btn');
 
 function addItem(e) {
   e.preventDefault();
